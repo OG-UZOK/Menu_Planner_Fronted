@@ -51,7 +51,7 @@ registrationButton.addEventListener("click", (event) => {
             localStorage.setItem("token", authToken);
             console.log(authToken);
 
-            window.location.href = '/patients';
+            window.location.href = '';//TODO
             console.log("Успешная регистрация");
   
       });
