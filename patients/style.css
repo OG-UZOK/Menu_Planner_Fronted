@@ -1,0 +1,182 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background: #1a3f76;
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .icon{
+    font-size: 1.5em;
+    margin: auto 50px auto 10px;
+}
+
+header span{
+    font-weight: bold;
+}
+
+header #Login{
+    margin-right: 20px;
+}
+
+header a {
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+form{
+    min-width: 500px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    margin: 40px auto !important;;
+    background: #f6f6fb;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.headerLogin h1{
+    font-weight: bold;
+}
+
+.form-label{
+    color: #aaaabf;
+}
+
+#search {
+    background-color: #317cb9;
+    width: 100%;
+    border: none;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error{
+    color: #ff3860;
+    font-size: 12px;
+    height: 13px;
+}
+
+.popup {
+    display: none;
+    width: 400px;
+    height: 50px;
+    margin: 30px auto;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#errorText {
+    color: red;
+    font-weight: bold;
+    margin: auto auto;
+}
+
+#errorText1 {
+    color: red;
+    font-weight: bold;
+    margin: auto auto;
+}
+
+#infoBlock{
+    background: none;
+  box-shadow: none; 
+  padding: 0;
+  margin: 10px auto 10px auto !important;
+
+  min-width: 500px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#listOfPatients{
+  background: none;
+  box-shadow: none; 
+  padding: 0px;
+
+}
+
+#infoBlock h2{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#inputСonclusion #example {
+    color: #ced4da;
+}
+
+
+.active{
+    color: gold;
+}
+
+#listOfPatients .patient{
+    background: #f6f6fb;
+    padding: 10px 20px;
+    line-height: 6px;
+}
+
+#listOfPatients .patient:hover {
+    cursor: pointer;
+}
+
+#listOfPatients .patient h1{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+#listOfPatients .patient p1{
+    color: #8a89a8;
+}
+
+#exampleModal{
+    margin-top: 80px;
+}
+
+#modalWindow{
+    background-color: transparent;
+    border: none;
+}
+
+#modalButton{
+    background-color: #317cb9;
+    width: 100%;
+    border: none;
+}
+
+#register{
+    background-color: #317cb9;
+    width: 100%;
+    border: none;
+}
+
+.pageNavigation{
+    display: none;
+}
+
+#navbar{
+    background-color: #1a3f76;
+}
+
+#navbar a{
+    color: white;
+}
+
+#navbar .menuItem{
+    color: black;
+    padding-right: 20px;
+}
+
+.pages{
+    margin-left: 15px !important;
+}
