@@ -16,28 +16,28 @@ loginButton.addEventListener("click", (event) => {
 
   const data = {
     email: email,
-    password: password,
+    password: password
   };
 
   const options = {
     method: "POST",
     headers: {
-      "Content-Type": "application/json",
+      "Content-Type": "application/json"
     },
     body: JSON.stringify(data),
   };
 
-  fetch("https://mis-api.kreosoft.space/api/doctor/login", options)
+  fetch("http://158.160.152.102:8080/user/login", options)
     .then((response) => {
       if (response.status === 200) {
         response.json() 
         .then(data => {
-        const authToken = data.token;
-        localStorage.setItem("token", authToken);
-        console.log(authToken);
-        document.getElementById('errorPopup').style.display = 'none';
-        window.location.href = '/patients';
-      });
+          const authToken = data.token;
+          localStorage.setItem("token", authToken);
+          console.log(authToken);
+          document.getElementById('errorPopup').style.display = 'none';
+          window.location.href = ''; // TODO
+        });
       } else if (response.status === 400) {
         document.getElementById('errorPopup').style.display = 'flex';
       }
